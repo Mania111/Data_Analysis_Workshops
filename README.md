@@ -13,3 +13,10 @@
 - everything else in 02-piping file on the repo. read it
 - do exercises
 - learn how to push git updates .
+
+## 31.03 - class. working with "airbnb" data file
+**Notes:**
+- create new jupiter notebook file - "31.03.ipynb" in main branch
+- follow teachers instructions.
+- - how do i make it so i dont have to repeat "import"s every time i make a python cell ?
+- connecting on google collab notebook
