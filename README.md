@@ -45,3 +45,34 @@
 HOMEWORK: frequency table, price_cat, no plot yet | until NEXT WEEK | airbnb data used earlier
 - bins: bars representing each bin / category for plot
 9 more days to do data cleansing with team !!
+
+## 24.04 - class. working with "airbnb" data file, barplots
+**Notes:**
+- started with short quiz
+- reviewing homework - highlighting barplot significance
+- - qualitative barplots
+```
+airbnb['price_cat'].value_counts()
+
+f, ax = plt subplots (figsize = (7,5
+sns.despine(f)
+
+sns.hisplot(
+        diamonds,
+        x="price", hue = "cut"
+        multiple="stack
+        palette="light:m_r"
+        edgecolor=".3",
+        linewidth=".5",
+        log_scale=True,
+)
+
+# maybe i should start doing notes in a jupyter notebook instead...
+```
+- - seaborn relplot displot catplot
+  - seaborn > matplotlib in difficulty
+  - Rating vs log price Scatter Plot
+  - visualization of distribution of prices
+  - Data Visualization Report: The Dataset - listing_id, description, host_id, host_name, neighbourhood_full, coordinates, listing added, room_type, rating, price ...
+  - HOMEWORK: find interesting facts about the airbnb from plots alone - in teams
+LOOK AT THE GOOGLE COLAB NOTEBOOK - TEACHER'S FILE
