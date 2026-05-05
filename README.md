@@ -76,3 +76,26 @@ sns.hisplot(
   - Data Visualization Report: The Dataset - listing_id, description, host_id, host_name, neighbourhood_full, coordinates, listing added, room_type, rating, price ...
   - HOMEWORK: find interesting facts about the airbnb from plots alone - in teams
 LOOK AT THE GOOGLE COLAB NOTEBOOK - TEACHER'S FILE
+
+## 05.05 - class. first time actual Data Statistics - in Lab 5 in enauczanie course & univariate statistics in the e-book
+**Notes:**
+- GOAL THIS WEEK - learn how to interpret data statistics for ONE variable
+- first task: plot - showing prices by room type - price by room type
+- - what kind of plot? - quantative / logarythmic prices by room type - HISTOGRAM or BINS
+  - how to show 3 histograms on one plot? - use alpha transparency, kde = true (shapes), automatic legend. in seaborn you can use hue or kde = true
+  - alternatively - several box plots
+- self test open - preparation for next weeks Quiz - starting now, quiz every week
+- great reference for making seaborn plots - https://seaborn.pydata.org/examples/index.html <- gallery with pictures and code snippets
+- TABLE: price usd
+- - statistics: mean, median, Q1, Q3 (quart-le), min & max ->
+  - Private, shared & apartaments v
+  - use describe or tabulate to create table - use groupby roomtype
+  - - important - data wrangling, transformations, mistakes in data, imputations - make sure everything is checked properly, or else result won't be accurate
+    - teacher highlights the importance - all work we've done so far shows in this stage
+  - this section is shown in the "univariate analysis" ebook sections: "summary statistics" and "cross-sectional analysis"
+  - - Results: 87,8 ; 71 ; 207 ;; 70 ; 50 ; 160
+    - First step: prepare rich value with the middle value. - find biggest difference between types - Shared Rooms have biggest difference
+    - - What does it mean? - SKEWEDNESS, VARIABILITY
+      - Re:Variability - Range: the difference between the “maximum” and “minimum” value. - low is small difference, high is big difference
+    - how to interpret the Median? - 50% of rooms is cheaper and the other 50% is more expensive
+- TOMORROW: WE WILL PLOT SOMETHING ON A PIECE OF PAPER - then after a few minutes teacher shows correct solution. - this isn't graded
