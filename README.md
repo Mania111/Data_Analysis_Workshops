@@ -77,7 +77,7 @@ sns.hisplot(
   - HOMEWORK: find interesting facts about the airbnb from plots alone - in teams
 LOOK AT THE GOOGLE COLAB NOTEBOOK - TEACHER'S FILE
 
-## 05.05 - class. first time actual Data Statistics - in Lab 5 in enauczanie course & univariate statistics in the e-book
+## 05.05 - class. first time actual Data Statistics - in Lab 5 & 6 in enauczanie course & univariate statistics in the e-book
 **Notes:**
 - GOAL THIS WEEK - learn how to interpret data statistics for ONE variable
 - first task: plot - showing prices by room type - price by room type
@@ -99,3 +99,4 @@ LOOK AT THE GOOGLE COLAB NOTEBOOK - TEACHER'S FILE
       - Re:Variability - Range: the difference between the “maximum” and “minimum” value. - low is small difference, high is big difference
     - how to interpret the Median? - 50% of rooms is cheaper and the other 50% is more expensive
 - TOMORROW: WE WILL PLOT SOMETHING ON A PIECE OF PAPER - then after a few minutes teacher shows correct solution. - this isn't graded
+- lab 6 has practice exercises (optional)
