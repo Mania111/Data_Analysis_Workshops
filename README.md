@@ -84,7 +84,7 @@ LOOK AT THE GOOGLE COLAB NOTEBOOK - TEACHER'S FILE
 - - what kind of plot? - quantative / logarythmic prices by room type - HISTOGRAM or BINS
   - how to show 3 histograms on one plot? - use alpha transparency, kde = true (shapes), automatic legend. in seaborn you can use hue or kde = true
   - alternatively - several box plots
-- self test open - preparation for next weeks Quiz - starting now, quiz every week
+- self test open - preparation for next weeks Quiz - starting now, quiz every week - OPEN 20 HOURS
 - great reference for making seaborn plots - https://seaborn.pydata.org/examples/index.html <- gallery with pictures and code snippets
 - TABLE: price usd
 - - statistics: mean, median, Q1, Q3 (quart-le), min & max ->
