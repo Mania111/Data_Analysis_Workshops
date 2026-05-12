@@ -84,7 +84,7 @@ LOOK AT THE GOOGLE COLAB NOTEBOOK - TEACHER'S FILE
 - - what kind of plot? - quantative / logarythmic prices by room type - HISTOGRAM or BINS
   - how to show 3 histograms on one plot? - use alpha transparency, kde = true (shapes), automatic legend. in seaborn you can use hue or kde = true
   - alternatively - several box plots
-- self test open - preparation for next weeks Quiz - starting now, quiz every week - OPEN 20 HOURS
+- self test open - preparation for next weeks Quiz - starting now, quiz every week - OPEN 24 HOURS
 - great reference for making seaborn plots - https://seaborn.pydata.org/examples/index.html <- gallery with pictures and code snippets
 - TABLE: price usd
 - - statistics: mean, median, Q1, Q3 (quart-le), min & max ->
@@ -100,3 +100,36 @@ LOOK AT THE GOOGLE COLAB NOTEBOOK - TEACHER'S FILE
     - how to interpret the Median? - 50% of rooms is cheaper and the other 50% is more expensive
 - TOMORROW: WE WILL PLOT SOMETHING ON A PIECE OF PAPER - then after a few minutes teacher shows correct solution. - this isn't graded
 - lab 6 has practice exercises (optional)
+
+## 12.05 - class. Quiz day. Bivariate Statistics (relationships of data)
+**Notes:**
+- today, we will focus on CONTINUOUS DISTRIBUTIONS - showing how two distributions relate to each other - relationships
+- this week's task: find some significant strong relationships between two variables, so they can be both quantitative or continuous
+- - if there is a nice linear relationship between ex. price and rating (scatter plot in seaborn):
+  - - sns.scatterplot(data=airbnb, y='price', x='rating')
+    - graph ends up messy, unreadable. fix -> logarythm
+    - - > airbnb['price']=airbnb['price'].re[;ace(0, np.nan) -> airbnb['logprice']=np.log(airbnb['price']); sns.scatterplot, data=airbnb, y='logprice', x='rating');
+        > seaborn scatterplot. read documentation
+        > ended up with no correlation
+- - quantitative: could be a linear or nonlinear / ordinal relationship
+  - if no relationship - that means there is no relationship
+  - sometimes, one could be quantitative and another ordinal
+- two key properties: sign & magnitude (the latter has a formula) - with standard (unheard)
+- logarythm of price (log price) log y = b0 + b1x
+- - y = exponential function (b0 +b1x)
+  - no measure of coreelation possibility for descriptive statistics
+- Starting today: until end of semester + next - using **sciy.stats**
+- - now: print correlation coefficient
+  - hitmap: ss.pearsonr(dr_height['Father'], df_height['Son'])
+  - ss.pearson(airbnb['logprice'], airbnb['racing')
+  - airbnb2 = airbnb.dropna()
+- if its not statistically structured. do not wrap it up
+- types of rank correlations
+- sorting/ranking by levels - Tay Kendalk's
+- spearman.k - for price vs number of reviews
+- calling the parameters - corr {person, kendall spearman) - airbnb.corr(airbnb, method='kendal' ..
+- heatmap - default name, not fully correct
+- - creating a heatmap
+  - rememner s ha,e
+- skewed data
+?? ok i think my notes for this session are not the Best. my apologies to reader (& future me)
