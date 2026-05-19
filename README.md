@@ -133,3 +133,9 @@ LOOK AT THE GOOGLE COLAB NOTEBOOK - TEACHER'S FILE
   - rememner s ha,e
 - skewed data
 ?? ok i think my notes for this session are not the Best. my apologies to reader (& future me)
+
+## 19.05 - class. Lab 7. Bivariate statistics
+**Notes:**
+- notebook in lab 7: plot relationship about total bills and tips - joinplot - scatterplot
+- - linearization
+  - everything done on the "Tips" file - uploaded here
