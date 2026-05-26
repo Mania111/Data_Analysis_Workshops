@@ -139,3 +139,8 @@ LOOK AT THE GOOGLE COLAB NOTEBOOK - TEACHER'S FILE
 - notebook in lab 7: plot relationship about total bills and tips - joinplot - scatterplot
 - - linearization
   - everything done on the "Tips" file - uploaded here
+- data cleansing and piping homework
+
+## 26.05 - class. Lab 8. Multivariate statistics
+**Notes:**
+- file attached "Regression.ipynb" - main file
