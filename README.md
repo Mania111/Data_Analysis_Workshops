@@ -144,3 +144,8 @@ LOOK AT THE GOOGLE COLAB NOTEBOOK - TEACHER'S FILE
 ## 26.05 - class. Lab 8. Multivariate statistics
 **Notes:**
 - file attached "Regression.ipynb" - main file
+
+## 2.06 - class. Lab 8. Multivariate statistics - cont
+**Notes:**
+- log vc ilog = index vs rows - from 0 up to 6
+- simple model today
